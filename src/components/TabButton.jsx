@@ -35,7 +35,7 @@ const Button = styled.button`
 
 
 export default function TabButton({ children, isSelected, ...props }) {
-    console.log('TABBUTTON COMPONENT EXECUTING');
+    //console.log('TABBUTTON COMPONENT EXECUTING');
     return (
             <ButtonItem>
                 <Button className={isSelected ? 'active' : undefined} {...props}>
