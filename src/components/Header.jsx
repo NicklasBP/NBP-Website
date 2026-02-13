@@ -6,7 +6,7 @@ export default function Header({ setActiveTab, activeTab }) {
 
     return (
 
-        <header>
+        <header className={activeTab==="home" ? 'transparent' : ''}>
             <ul className="tabs">
                 <TabButton onClick={() => setActiveTab("home")} isSelected={activeTab === "home"}>
                     Home

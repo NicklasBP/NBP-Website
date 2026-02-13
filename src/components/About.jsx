@@ -6,8 +6,10 @@ export default function About() {
   return (
 
     <div className="about">
-      <img src={myImage} alt="My Example" />
-      <h2>My CV</h2>
+      <div className="image-wrapper">
+        <img src={myImage} alt="My Example" />
+      </div>
+      <h2>Curriculum Vitae</h2>
 
       <table>
         <thead>

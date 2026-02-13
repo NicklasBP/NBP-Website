@@ -17,7 +17,7 @@ export default function Gallery() {
     }, []);
 
     return (
-        <div>
+        <div className="gallery">
             {images.map((src, idx) => <img src={src} key={idx}   style={{ width: '100%', height: 'auto', display: 'block', margin: '10px auto' }}
             ></img>)}
         </div>

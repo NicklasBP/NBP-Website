@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import './App.css'
 
 import About from './components/About';
 import Gallery from './components/Gallery';
@@ -8,8 +7,6 @@ import Contact from './components/Contact';
 import Home from './components/Home';
 import Header from './components/Header';
 
-
-import "./App.css";
 
 
 
@@ -23,11 +20,8 @@ function App() {
     document.body.classList.toggle("bg-inactive", !isBackgroundPicture);
   }, [isBackgroundPicture]);
 
-  /*
+ 
 
-    <div className="name">
-        <h1>Nicklas Bjärnhall Prytz</h1>
-      </div>*/
 
 
 
